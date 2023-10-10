@@ -4,22 +4,21 @@ import welder from '@/public/welder.jpg'
 export default function Hero() {
 
     return (
-        <div className="border-b">
-            <div className="relative isolate overflow-hidden pt-14 max-w-7xl mx-auto">
-                <Image
-                    src={welder}
-                    alt=""
-                    className="absolute inset-0 -z-10 h-full w-full object-cover"
-                />
-                <div className="bg-black absolute inset-0 bg-opacity-50"></div>
+        <div className="border-b relative">
+            <Image
+                src={welder}
+                alt=""
+                className="absolute inset-0 -z-10 h-full w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-br from-black via-black to-orange-700 opacity-80"></div>
+            <div className="relative isolate overflow-hidden pt-14 max-w-7xl mx-auto border-x border-gray-600">
                 <div className="mx-auto max-w-2xl py-36 relative z-10">
                     <div className="">
                         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                            Data to enrich your online business
+                            Prefabrykaty zbrojeniowe i wyroby hutnicze
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
-                            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                            fugiat veniam occaecat fugiat aliqua.
+                            Produkcja i sprzedaż prefabrykatów zbrojeniowych oraz wyrobów hutniczych.
                         </p>
                         <div className="mt-10 flex items-center gap-x-6">
                             <a

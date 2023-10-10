@@ -1,11 +1,11 @@
 import Nav from '@/components/nav'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
 import Footer from '@/components/footer'
 
-const inter = Poppins({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+const inter = Open_Sans({
+  weight: ["300", "400", "500", "600", "700", "800",],
   subsets: ['latin']
 })
 

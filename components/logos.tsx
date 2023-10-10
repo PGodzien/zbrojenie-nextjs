@@ -15,22 +15,22 @@ export default function Logos() {
                     </h2>
                     <div className="mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:grid-cols-5">
                         <Image
-                            className="col-span-2 h-24 border-r w-full object-contain object-left lg:col-span-1"
+                            className="col-span-2 h-24 w-full object-contain object-left lg:col-span-1"
                             src={budimex}
                             alt="Transistor"
                         />
                         <Image
-                            className="col-span-2 h-24 border-r w-full object-contain object-left lg:col-span-1"
+                            className="col-span-2 h-24 w-full object-contain object-left lg:col-span-1"
                             src={besta}
                             alt="Transistor"
                         />
                         <Image
-                            className="col-span-2 h-24 border-r w-full object-contain object-left lg:col-span-1"
+                            className="col-span-2 h-24 w-full object-contain object-left lg:col-span-1"
                             src={inzynieria}
                             alt="Transistor"
                         />
                         <Image
-                            className="col-span-2 h-24 border-r w-full object-contain object-left lg:col-span-1"
+                            className="col-span-2 h-24 w-full object-contain object-left lg:col-span-1"
                             src={skanska}
                             alt="Transistor"
                         />
