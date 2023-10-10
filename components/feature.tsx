@@ -1,33 +1,27 @@
-import Image from "next/image"
-import slider from '@/public/slider_02.jpg'
-
 export default function Feature() {
     return (
-        <div className="border-b">
-            <div className="relative bg-white max-w-7xl mx-auto overflow-hidden border-x">
-                <div className="relative h-80 overflow-hidden bg-black md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
-                    <Image
-                        className="h-full w-full object-cover"
-                        src={slider}
-                        alt=""
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-br from-black via-black to-orange-700 opacity-50"></div>
-                </div>
-                <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
-                    <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
-                        <h2 className="text-base font-semibold leading-7 text-orange-400">Stal zbrojeniowa i zbrojenie budowlane</h2>
-                        <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Produkcja prefabrykatów zbrojeniowych</p>
-                        <p className="mt-6 text-base leading-7">
-                            Nasza zbrojarnia obejmuje wykonywanie prefabrykatów z prętów o średnicach od 6 mm do 40 mm. Wykorzystujemy stal B500A,B500B oraz B500SP.
-                        </p>
-                        <div className="mt-8">
-                            <a
-                                href="#"
-                                className="bg-black px-6 py-4 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
-                            >
-                                Cała oferta
-                            </a>
-                        </div>
+        <div className="bg-white">
+            <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8 max-w-7xl">
+                <div className="max-w-2xl text-center">
+                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                        Boost your productivity.
+                        <br />
+                        Start using our app today.
+                    </h2>
+                    <p className="mt-6 max-w-xl text-lg leading-8 text-gray-600">
+                        Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
+                        commodo do ea.
+                    </p>
+                    <div className="mt-10 flex items-center justify-center gap-x-6">
+                        <a
+                            href="#"
+                            className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                        >
+                            Get started
+                        </a>
+                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                            Learn more <span aria-hidden="true">→</span>
+                        </a>
                     </div>
                 </div>
             </div>
