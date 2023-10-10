@@ -1,5 +1,5 @@
 import Image from "next/image"
-import welder from '@/public/slider_01.jpg'
+import welder from '@/public/welder.jpg'
 
 export default function Hero() {
 
