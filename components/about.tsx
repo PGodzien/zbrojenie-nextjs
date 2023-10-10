@@ -3,8 +3,8 @@ import slider from '@/public/slider_02.jpg'
 
 export default function About() {
     return (
-        <div className="border-b">
-            <div className="relative bg-white max-w-7xl mx-auto overflow-hidden border-x">
+        <div className="border-b bg-gray-50">
+            <div className="relative max-w-7xl mx-auto overflow-hidden border-x">
                 <div className="relative h-80 overflow-hidden bg-black md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
                     <Image
                         className="h-full w-full object-cover"

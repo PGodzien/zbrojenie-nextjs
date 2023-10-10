@@ -7,7 +7,7 @@ import polaqua from '@/public/polaqua-logo.webp'
 
 export default function Logos() {
     return (
-        <div className="bg-white border-b">
+        <div className="bg-white border-y">
             <div className="mx-auto max-w-7xl py-24 sm:py-32 px-6 lg:px-8 border-x">
                 <div className="mx-auto max-w-2xl lg:max-w-none">
                     <h2 className="text-lg font-semibold leading-8 text-gray-900">

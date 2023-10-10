@@ -1,6 +1,6 @@
 import Contact from '@/components/contact'
 import Feature from '@/components/feature'
-import Hero from '@/components/hero'
+import HeroTwo from '@/components/heroTwo'
 import Image from 'next/image'
 import About from '@/components/about'
 import Logos from '@/components/logos'
@@ -8,7 +8,7 @@ import Logos from '@/components/logos'
 export default function Home() {
   return (
     <>
-      <Hero />
+      <HeroTwo />
       <Logos />
       <About />
       <Contact />
