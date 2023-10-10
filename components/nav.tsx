@@ -15,15 +15,15 @@ export default function Example() {
 
     return (
         <header className="bg-white border-b">
-            <nav className="mx-auto flex max-w-7xl border-x items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <nav className="mx-auto flex max-w-7xl border-x items-center justify-between" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <a href="#" className="">
+                    <a href="#" className="border-r py-6 px-8">
                         <span className="sr-only">Your Company</span>
-                        <p className="">Zbrojarnia Transbet</p>
+                        <p className="font-bold uppercase">Transbet Zbrojarnia</p>
                         {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
                     </a>
                 </div>
-                <div className="flex lg:hidden">
+                <div className="flex lg:hidden border-l py-6 px-8">
                     <button
                         type="button"
                         className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -41,8 +41,8 @@ export default function Example() {
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <a href="#" className="text-sm font-semibold leading-6">
-                        Log in <span aria-hidden="true">&rarr;</span>
+                    <a href="#" className="text-sm font-semibold leading-6 py-6 border-l px-8 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">
+                        Skontaktuj się <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
             </nav>
