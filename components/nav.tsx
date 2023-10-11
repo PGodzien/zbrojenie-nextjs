@@ -20,16 +20,16 @@ export default function Example() {
     }, []);
 
     return (
-        <header className={scroll ? "bg-white border-b fixed z-30 w-full top-0" : "bg-transparent text-white border-b fixed z-50 w-full top-0"}>
-            <nav className="mx-auto flex max-w-7xl border-x  items-center justify-between" aria-label="Global">
+        <header className={scroll ? "bg-white border-b border-gray-700 fixed z-30 w-full top-0" : "bg-transparent text-white border-b border-gray-700 fixed z-50 w-full top-0"}>
+            <nav className="mx-auto flex max-w-7xl border-x border-gray-700  items-center justify-between" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <a href="/" className="border-r  py-6 px-8">
+                    <a href="/" className="border-r border-gray-700  py-6 px-8">
                         <span className="sr-only">Your Company</span>
                         <p className="font-bold uppercase">Transbet Zbrojarnia</p>
                         {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
                     </a>
                 </div>
-                <div className="flex lg:hidden border-l  py-6 px-8">
+                <div className="flex lg:hidden border-l border-gray-700  py-6 px-8">
                     <button
                         type="button"
                         className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-500"
@@ -47,7 +47,7 @@ export default function Example() {
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <a href="#kontakt" className="text-sm font-semibold leading-6 py-6 border-l  px-8 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">
+                    <a href="#kontakt" className="text-sm font-semibold leading-6 py-6 border-l border-gray-700  px-8 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">
                         Skontaktuj się <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
