@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
@@ -12,8 +12,15 @@ const navigation = [
 export default function Example() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
+    const [scroll, setScroll] = useState(false);
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            setScroll(window.scrollY > 40);
+        });
+    }, []);
+
     return (
-        <header className="bg-white border-b  fixed z-50 w-full top-0">
+        <header className={scroll ? "bg-white border-b fixed z-50 w-full top-0" : "bg-transparent text-white border-b"}>
             <nav className="mx-auto flex max-w-7xl border-x  items-center justify-between" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="/" className="border-r  py-6 px-8">
