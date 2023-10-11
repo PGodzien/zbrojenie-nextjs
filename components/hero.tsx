@@ -11,7 +11,7 @@ export default function Hero() {
                 className="absolute inset-0 -z-10 h-full w-full object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-            <div className="absolute inset-0 bg-gradient-to-br from-black via-black to-orange-700 opacity-60"></div>
+            <div className="absolute inset-0 bg-gradient-to-bl from-black via-black to-orange-700 opacity-60"></div>
             <div className="relative isolate overflow-hidden pt-40 max-w-7xl mx-auto border-x border-gray-700 ">
                 <div className="mx-auto max-w-4xl py-48 relative z-10 px-8">
                     <div className="">
