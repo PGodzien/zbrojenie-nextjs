@@ -47,7 +47,7 @@ export default function Example() {
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <a href="#kontakt" className="text-sm font-semibold leading-6 py-6 border-l border-gray-700  px-8 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">
+                    <a href="#kontakt" className="text-sm font-semibold leading-6 py-6 border-l border-gray-700  px-8 bg-orange-500 text-white hover:text-black hover:bg-orange-500 transition duration-200">
                         Skontaktuj się <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
