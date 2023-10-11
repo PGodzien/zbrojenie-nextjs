@@ -4,21 +4,21 @@ const features = [
     {
         name: 'Park maszynowy',
         description:
-            'Nasz zautomatyzowany park maszynowy to gwarancja efektywności i precyzji. Dzięki zaawansowanej technologii, jesteśmy w stanie świadczyć usługi na najwyższym poziomie, sprostając nawet najbardziej wymagającym projektom.',
+            'Zautomatyzowany park maszynowy to gwarancja efektywności i precyzji. Dzięki zaawansowanej technologii, jesteśmy w stanie świadczyć usługi na najwyższym poziomie.',
         href: '#',
         icon: InboxIcon,
     },
     {
         name: 'Terminy realizacji',
         description:
-            'Jesteśmy dumni z naszych niezwykle krótkich terminów realizacji. Nasza zespół pracuje sprawnie i efektywnie, aby dostarczyć Twoje zamówienie najszybciej, jak to możliwe, bez kompromisów w jakości.',
+            'Nasz wykwalifikowany zespół pracuje sprawnie i efektywnie, aby dostarczyć zamówienia prefabrykatów najszybciej, jak to możliwe, bez kompromisów w jakości.',
         href: '#',
         icon: UsersIcon,
     },
     {
         name: 'Wysoka dostępność',
         description:
-            'Nasza usługa dostawy sięga zarówno Polski, jak i innych krajów. Niezależnie od lokalizacji, dostarczymy Twoje zamówienie dokładnie tam, gdzie tego potrzebujesz, zapewniając globalną dostępność naszych produktów i usług.',
+            'Nasza usługa dostawy sięga zarówno Polski, jak i innych krajów. Niezależnie od lokalizacji, dostarczymy Twoje zamówienie dokładnie tam, gdzie tego potrzebujesz.',
         href: '#',
         icon: TrashIcon,
     },
@@ -46,7 +46,7 @@ export default function Feature() {
                                     </div> */}
                                     {feature.name}
                                 </dt>
-                                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600 max-w-sm">
                                     <p className="flex-auto">{feature.description}</p>
                                 </dd>
                             </div>
