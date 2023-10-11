@@ -6,6 +6,12 @@ import About from '@/components/about'
 import Logos from '@/components/logos'
 import Hero from '@/components/hero'
 import AboutTwo from '@/components/aboutTwo'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Zbrojenie Budowlane - Transbet',
+  description: 'Zbrojarnia Transbet oferuje prefabrykaty zbrojeniowe, zbrojenia budowlane i stal budowlaną.',
+}
 
 export default function Home() {
   return (
