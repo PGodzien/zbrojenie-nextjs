@@ -1,4 +1,4 @@
-import { InboxIcon, TrashIcon, UsersIcon } from '@heroicons/react/24/outline'
+import { CalendarIcon, CogIcon, MapIcon, UsersIcon } from '@heroicons/react/24/outline'
 
 const features = [
     {
@@ -6,28 +6,28 @@ const features = [
         description:
             'Zautomatyzowany park maszynowy to gwarancja efektywności i precyzji. Dzięki zaawansowanej technologii, jesteśmy w stanie świadczyć usługi na najwyższym poziomie.',
         href: '#',
-        icon: InboxIcon,
+        icon: CogIcon,
     },
     {
         name: 'Terminy realizacji',
         description:
             'Nasz wykwalifikowany zespół pracuje sprawnie i efektywnie, aby dostarczyć zamówienia prefabrykatów najszybciej, jak to możliwe, bez kompromisów w jakości.',
         href: '#',
-        icon: UsersIcon,
+        icon: CalendarIcon,
     },
     {
         name: 'Wysoka dostępność',
         description:
             'Nasza usługa dostawy sięga zarówno Polski, jak i innych krajów. Niezależnie od lokalizacji, dostarczymy Twoje zamówienie dokładnie tam, gdzie tego potrzebujesz.',
         href: '#',
-        icon: TrashIcon,
+        icon: MapIcon,
     },
     {
         name: 'Obsługa i doradztwo',
         description:
             'Nasi eksperci służą profesjonalnym wsparciem, zapewniając ciągłą dostępność do nieocenionych rad i wskazówek, aby zapewnić Ci najlepsze doświadczenie.',
         href: '#',
-        icon: TrashIcon,
+        icon: UsersIcon,
     },
 ]
 

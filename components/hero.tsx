@@ -25,10 +25,10 @@ export default function Hero() {
                                 href="#"
                                 className="bg-orange-500 px-6 py-4 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black duration-200 transition"
                             >
-                                Cała oferta
+                                Skontaktuj się
                             </a>
                             <a href="#" className="text-sm font-semibold leading-6 text-white">
-                                Learn more <span aria-hidden="true">→</span>
+                                Pełna oferta <span aria-hidden="true">→</span>
                             </a>
                         </div>
                     </div>

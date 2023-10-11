@@ -3,39 +3,37 @@ export default function Contact() {
         <div className="bg-white border-b">
             <div className="mx-auto max-w-7xl px-6 lg:px-8 border-x py-24 sm:py-32">
                 <div className="mx-auto max-w-2xl lg:mx-0">
-                    <h2 className="text-3xl font-bold tracking-tight text-gray-900">Our offices</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-gray-900">Kontakt zbrojarnie budowlane</h2>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui
-                        laoreet diam sed lacus, fames.
+                        Zapraszamy do kontaktu z naszą zbrojarnią. Nasi specjaliści czekają na pytania dotyczące oferty wyrobów hutniczych.
                     </p>
                 </div>
                 <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
                     <div>
-                        <h3 className="border-l border-orange-600 pl-6 font-semibold text-gray-900">Los Angeles</h3>
+                        <h3 className="border-l border-orange-600 pl-6 font-semibold text-gray-900">Kontakt</h3>
                         <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
-                            <p>4556 Brendan Ferry</p>
-                            <p>Los Angeles, CA 90210</p>
+                            <p>zbrojarnia@transbet.com.pl</p>
+                            <p>+48 539 677 770</p>
                         </address>
                     </div>
                     <div>
-                        <h3 className="border-l border-orange-600 pl-6 font-semibold text-gray-900">New York</h3>
+                        <h3 className="border-l border-orange-600 pl-6 font-semibold text-gray-900">Adres</h3>
                         <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
-                            <p>886 Walter Street</p>
-                            <p>New York, NY 12345</p>
+                            <p>Topolowa 5</p>
+                            <p>37-700 Przemyśl</p>
                         </address>
                     </div>
                     <div>
-                        <h3 className="border-l border-orange-600 pl-6 font-semibold text-gray-900">Toronto</h3>
+                        <h3 className="border-l border-orange-600 pl-6 font-semibold text-gray-900">Firma</h3>
                         <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
-                            <p>7363 Cynthia Pass</p>
-                            <p>Toronto, ON N3Y 4H8</p>
+                            <p>TRANSBET BETONIARNIE GROCHOWICZ Sp. K.</p>
                         </address>
                     </div>
                     <div>
-                        <h3 className="border-l border-orange-600 pl-6 font-semibold text-gray-900">London</h3>
+                        <h3 className="border-l border-orange-600 pl-6 font-semibold text-gray-900">Dane</h3>
                         <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
-                            <p>114 Cobble Lane</p>
-                            <p>London N1 2EF</p>
+                            <p>NIP: 795-10-07-169</p>
+                            <p>KRS: 0000573370</p>
                         </address>
                     </div>
                 </div>
