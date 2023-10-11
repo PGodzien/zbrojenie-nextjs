@@ -71,7 +71,7 @@ export default function About() {
                     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                         <div>
                             <h2 className="text-base font-semibold leading-7 text-orange-600">Stal zbrojeniowa i prefabrykaty</h2>
-                            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Produkcja prefabrykatów zbrojeniowych</p>
+                            <h3 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Produkcja prefabrykatów zbrojeniowych</h3>
                             <p className="mt-6 text-base leading-7 text-gray-600">
                                 Produkcja prefabrykatów zbrojeniowych, którą realizuje nasza zbrojarnia obejmuje wykonywanie prefabrykatów z prętów o średnicach od 6 mm do 40 mm. Wykorzystujemy stal B500A,B500B oraz B500SP.
                             </p>
@@ -79,7 +79,7 @@ export default function About() {
                         <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
                             {features.map((feature) => (
                                 <div key={feature.name} className="relative pl-9">
-                                    <dt className="font-semibold text-gray-900">
+                                    <dt className="font-semibold text-gray-900 uppercase">
                                         <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-orange-500" aria-hidden="true" />
                                         {feature.name}
                                     </dt>
