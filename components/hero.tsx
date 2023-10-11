@@ -11,8 +11,8 @@ export default function Hero() {
                 className="absolute inset-0 -z-10 h-full w-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-br from-black via-black to-orange-700 opacity-80"></div>
-            <div className="relative isolate overflow-hidden pt-14 max-w-7xl mx-auto border-x border-gray-600">
-                <div className="mx-auto max-w-2xl py-36 relative z-10">
+            <div className="relative isolate overflow-hidden pt-14 max-w-7xl mx-auto border-x ">
+                <div className="mx-auto max-w-2xl py-36 relative z-10 px-8">
                     <div className="">
                         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                             Prefabrykaty zbrojeniowe i wyroby hutnicze
