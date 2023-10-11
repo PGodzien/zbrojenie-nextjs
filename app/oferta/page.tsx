@@ -50,14 +50,14 @@ export const metadata: Metadata = {
 export default function About() {
     return (
         <div className="">
-            <div className="relative isolate overflow-hidden bg-gray-900">
+            <div className="relative border-b border-gray-700 isolate overflow-hidden bg-gray-900">
                 <Image
                     src={slider}
                     alt=""
                     className="absolute inset-0 -z-10 h-full w-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-bl from-black via-black to-orange-700 opacity-80"></div>
-                <div className="mx-auto max-w-7xl pb-24 pt-48 border-x px-6 lg:px-8 relative z-10">
+                <div className="mx-auto max-w-7xl pb-24 pt-48 border-x border-gray-700 px-6 lg:px-8 relative z-10">
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Oferta</h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
