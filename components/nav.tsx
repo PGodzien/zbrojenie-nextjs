@@ -20,7 +20,7 @@ export default function Example() {
     }, []);
 
     return (
-        <header className={scroll ? "bg-white border-b fixed z-50 w-full top-0" : "bg-transparent text-white border-b"}>
+        <header className={scroll ? "bg-white border-b fixed z-30 w-full top-0" : "bg-transparent text-white border-b fixed z-50 w-full top-0"}>
             <nav className="mx-auto flex max-w-7xl border-x  items-center justify-between" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="/" className="border-r  py-6 px-8">
@@ -54,7 +54,7 @@ export default function Example() {
             </nav>
             <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <div className="fixed inset-0 z-10" />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <a href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>

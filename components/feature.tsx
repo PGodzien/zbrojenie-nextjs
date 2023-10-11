@@ -22,6 +22,13 @@ const features = [
         href: '#',
         icon: TrashIcon,
     },
+    {
+        name: 'Obsługa i doradztwo',
+        description:
+            'Nasi eksperci służą profesjonalnym wsparciem, zapewniając ciągłą dostępność do nieocenionych rad i wskazówek, aby zapewnić Ci najlepsze doświadczenie.',
+        href: '#',
+        icon: TrashIcon,
+    },
 ]
 
 export default function Feature() {
@@ -30,25 +37,23 @@ export default function Feature() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8 border-x py-24">
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        Dlaczego warto wybrać Transbet?
+                        Stal zbrojeniowa i prefabrykaty od Transbet
                     </h2>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                         Poznaj kilka powodów dla których warto skorzystać z usług Zbrojarni Transbet w zakresie prefebrykatów zbrojeniowych oraz zbrojeń budowlanych.
                     </p>
                 </div>
-                <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-                    <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+                <div className="mx-auto mt-16 sm:mt-20 lg:mt-24">
+                    <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
                         {features.map((feature) => (
-                            <div key={feature.name} className="flex flex-col">
+                            <div key={feature.name} className="relative pl-16">
                                 <dt className="text-base font-semibold leading-7 text-gray-900">
-                                    {/* <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-orange-600">
+                                    <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center bg-black">
                                         <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
-                                    </div> */}
+                                    </div>
                                     {feature.name}
                                 </dt>
-                                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600 max-w-sm">
-                                    <p className="flex-auto">{feature.description}</p>
-                                </dd>
+                                <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd>
                             </div>
                         ))}
                     </dl>
