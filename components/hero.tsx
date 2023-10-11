@@ -22,12 +22,12 @@ export default function Hero() {
                         </p>
                         <div className="mt-10 flex items-center gap-x-6 relative z-30">
                             <a
-                                href="#"
+                                href="#kontakt"
                                 className="bg-orange-500 px-6 py-4 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black duration-200 transition"
                             >
                                 Skontaktuj się
                             </a>
-                            <a href="#" className="text-sm font-semibold leading-6 text-white">
+                            <a href="/oferta" className="text-sm font-semibold leading-6 text-white">
                                 Pełna oferta <span aria-hidden="true">→</span>
                             </a>
                         </div>

@@ -2,7 +2,7 @@ import Map from "./map"
 
 export default function Contact() {
     return (
-        <div className="">
+        <div id="kontakt" className="">
             <div className="bg-white border-b">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 border-x py-24 sm:py-32">
                     <div className="mx-auto max-w-2xl lg:mx-0">

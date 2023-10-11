@@ -9,7 +9,7 @@ import AboutTwo from '@/components/aboutTwo'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Zbrojenie Budowlane - Transbet',
+  title: 'Zbrojenie Budowlane - Zbrojarnia Transbet',
   description: 'Zbrojarnia Transbet oferuje prefabrykaty zbrojeniowe, zbrojenia budowlane i stal budowlaną.',
 }
 
@@ -22,7 +22,6 @@ export default function Home() {
       {/* <Logos /> */}
       {/* <AboutTwo /> */}
       <About />
-      <Contact />
     </>
   )
 }
