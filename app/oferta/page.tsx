@@ -14,31 +14,31 @@ const features = [
     },
     {
         name: 'Strzemiona zbrojeniowe',
-        description: 'In sit qui aliquid deleniti et. Ad nobis sunt omnis. Quo sapiente dicta laboriosam.',
+        description: 'Stalowe strzemiona zbrojeniowe. Dostępne w różnych rozmiarach. Najwyższa jakość i trwałość.',
     },
     {
         name: 'Stal na strzemiona',
-        description: 'Sed rerum sunt dignissimos ullam. Iusto iure occaecati voluptate eligendi fugiat sequi.',
+        description: 'Poza produkcją strzemion zbrojeniowych zajmujemy się równie dostarczaniem stali na strzemiona.',
     },
     {
         name: 'Kosze zbrojeniowe (pale)',
-        description: 'Eos laudantium repellat sed architecto earum unde incidunt. Illum sit dolores voluptatem.',
+        description: 'Szybkie terminy realizacji oraz precyzja i wysoka jakość wykonania koszy zbrojeniowych. ',
     },
     {
         name: 'Klatki zbrojeniowe spawane (tubingi)',
-        description: 'Nulla est saepe accusamus nostrum est est. Fugit voluptatum omnis quidem voluptatem.',
+        description: 'Spawane klatki zbrojeniowe z najlepszej jakości materiałów. Trwałe i skuteczne rozwiązanie.',
     },
     {
         name: 'Łuki oraz koła',
-        description: 'Nulla est saepe accusamus nostrum est est. Fugit voluptatum omnis quidem voluptatem.',
+        description: 'Łuki i koła zbrojeniowe zapewniają stabilność i bezpieczeństwo konstrukcji. Wybierz najlepsze.',
     },
     {
         name: 'Siatki zbrojeniowe',
-        description: 'Nulla est saepe accusamus nostrum est est. Fugit voluptatum omnis quidem voluptatem.',
+        description: 'Jeden z najwaniejszych elementów zbrojenia – wykonujemy je z dbałością o jakość i detale.',
     },
     {
         name: 'Wyroby hutnicze (teowniki, ceowniki, profile itp.)',
-        description: 'Nulla est saepe accusamus nostrum est est. Fugit voluptatum omnis quidem voluptatem.',
+        description: 'Oferujemy różnorodne wyroby hutnicze, w tym teowniki, ceowniki i profile zbrojeniowe.',
     },
 ]
 
