@@ -16,3 +16,8 @@ h5,
 h6 {
     text-transform: uppercase !important;
 }
+
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}

@@ -70,7 +70,7 @@ export default function About() {
                                             </button>
                                             <div className="">
                                                 <div className="w-full h-full">
-                                                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/mVuWdZlw8eg?si=uqtcUIXOfNWtj8wm" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                                    <iframe className="youtube-video" src="https://www.youtube.com/embed/mVuWdZlw8eg?si=uqtcUIXOfNWtj8wm" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                                                 </div>
                                             </div>
                                         </Dialog.Panel>
