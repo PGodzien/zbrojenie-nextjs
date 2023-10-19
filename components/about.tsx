@@ -63,14 +63,14 @@ export default function About() {
                                         <Dialog.Panel className="w-full max-w-4xl mx-auto shadow-xl transition-all">
                                             <button
                                                 type="button"
-                                                className="absolute text-gray-400 hover:text-white z-50 w-20 h-20 -top-20 right-0"
+                                                className="absolute opacity-20 hover:opacity-100 text-white z-50 w-20 h-20 -top-20 right-0"
                                                 onClick={closeModal}
                                             >
                                                 <XCircleIcon />
                                             </button>
                                             <div className="">
                                                 <div className="w-full h-full">
-                                                    <iframe className="youtube-video" src="https://www.youtube.com/embed/mVuWdZlw8eg?si=uqtcUIXOfNWtj8wm" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                                    <iframe className="youtube-video" src="https://www.youtube.com/embed/EtQ8sad15s8?si=QCe94DBdYxN0jRYZ" title="Zbrojenie Budowlane Transbet - Prefabrykaty Zbrojeniowe i Wyroby Hutnicze" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                                                 </div>
                                             </div>
                                         </Dialog.Panel>
