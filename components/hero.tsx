@@ -5,12 +5,15 @@ export default function Hero() {
 
     return (
         <div className="border-b border-gray-700 relative -mt-20">
-            <Image
+            {/* <Image
                 src={welder}
                 alt=""
                 className="absolute inset-0 -z-10 h-full w-full object-cover"
-            />
+            /> */}
             <div className="absolute inset-0 bg-gradient-to-b from-black opacity-50"></div>
+
+            <video className="absolute -z-10 w-auto min-w-full max-w-none" autoPlay muted loop src="/wideo.mp4"></video>
+
             {/* <div className="absolute inset-0 bg-gradient-to-bl from-black via-black to-orange-700 opacity-60"></div> */}
             <div className="relative isolate overflow-hidden pt-40 max-w-7xl mx-auto border-x border-gray-700 ">
                 <div className="mx-auto max-w-4xl py-24 md:py-48 relative z-10 px-8">
