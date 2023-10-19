@@ -59,7 +59,7 @@ export default function About() {
                 <div className="absolute inset-0 bg-gradient-to-bl from-black via-black to-orange-700 opacity-80"></div>
                 <div className="mx-auto max-w-7xl pb-24 pt-48 border-x border-gray-700 px-6 lg:px-8 relative z-10">
                     <div className="mx-auto max-w-2xl lg:mx-0">
-                        <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Oferta</h2>
+                        <h2 className="text-4xl  tracking-tight text-white sm:text-6xl">Oferta</h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
                             Sprawdź naszą ofertę produktów zbrojeniowych i usług związanych z montażem i projektowaniem.
                         </p>
@@ -70,8 +70,8 @@ export default function About() {
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 py-24 border-x">
                     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                         <div>
-                            <h2 className="text-base font-semibold leading-7 text-orange-600">Stal zbrojeniowa i prefabrykaty</h2>
-                            <h3 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Produkcja prefabrykatów zbrojeniowych</h3>
+                            <h2 className="text-base  leading-7 text-orange-600">Stal zbrojeniowa i prefabrykaty</h2>
+                            <h3 className="mt-2 text-3xl  tracking-tight text-gray-900 sm:text-4xl">Produkcja prefabrykatów zbrojeniowych</h3>
                             <p className="mt-6 text-base leading-7 text-gray-600">
                                 Produkcja prefabrykatów zbrojeniowych, którą realizuje nasza zbrojarnia obejmuje wykonywanie prefabrykatów z prętów o średnicach od 6 mm do 40 mm. Wykorzystujemy stal B500A,B500B oraz B500SP.
                             </p>
@@ -79,7 +79,7 @@ export default function About() {
                         <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
                             {features.map((feature) => (
                                 <div key={feature.name} className="relative pl-9">
-                                    <dt className="font-semibold text-gray-900 uppercase">
+                                    <dt className=" text-gray-900 uppercase">
                                         <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-orange-500" aria-hidden="true" />
                                         {feature.name}
                                     </dt>

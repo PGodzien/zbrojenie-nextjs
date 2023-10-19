@@ -15,15 +15,15 @@ export default function About() {
                 </div>
                 <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
                     <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
-                        <h2 className="text-base font-semibold leading-7 text-orange-400">Stal zbrojeniowa i zbrojenie budowlane</h2>
-                        <h3 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Produkcja prefabrykatów zbrojeniowych</h3>
+                        <h2 className="text-base  leading-7 text-orange-400">Stal zbrojeniowa i zbrojenie budowlane</h2>
+                        <h3 className="mt-2 text-3xl  tracking-tight sm:text-4xl">Produkcja prefabrykatów zbrojeniowych</h3>
                         <p className="mt-6 text-base leading-7">
                             Nasza zbrojarnia obejmuje wykonywanie prefabrykatów z prętów o średnicach od 6 mm do 40 mm. Wykorzystujemy stal B500A,B500B oraz B500SP.
                         </p>
                         <div className="mt-8">
                             <a
                                 href="/oferta"
-                                className="bg-black px-6 py-4 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
+                                className="bg-black px-6 py-4 text-sm  text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
                             >
                                 Cała oferta
                             </a>

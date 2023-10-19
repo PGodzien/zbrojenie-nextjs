@@ -25,7 +25,7 @@ export default function Example() {
                 <div className="flex lg:flex-1">
                     <a href="/" className="border-r border-gray-700  py-6 px-8">
                         <span className="sr-only">Your Company</span>
-                        <p className="font-bold uppercase">Transbet Zbrojarnia</p>
+                        <p className=" uppercase">Transbet Zbrojarnia</p>
                         {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
                     </a>
                 </div>
@@ -41,13 +41,13 @@ export default function Example() {
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="text-sm font-semibold leading-6">
+                        <a key={item.name} href={item.href} className="text-sm  leading-6">
                             {item.name}
                         </a>
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <a href="#kontakt" className="text-sm font-semibold leading-6 py-6 border-l border-gray-700  px-8 bg-orange-500 text-white hover:text-black hover:bg-orange-500 transition duration-200">
+                    <a href="#kontakt" className="text-sm  leading-6 py-6 border-l border-gray-700  px-8 bg-orange-500 text-white hover:text-black hover:bg-orange-500 transition duration-200">
                         Skontaktuj się <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
@@ -58,7 +58,7 @@ export default function Example() {
                     <div className="flex items-center justify-between">
                         <a href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <p className="font-bold uppercase">Transbet Zbrojarnia</p>
+                            <p className=" uppercase">Transbet Zbrojarnia</p>
                             {/* <Image
                                 className="h-8 w-auto"
                                 src={logo}
@@ -81,7 +81,7 @@ export default function Example() {
                                     <a
                                         key={item.name}
                                         href={item.href}
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                                     >
                                         {item.name}
                                     </a>
@@ -91,7 +91,7 @@ export default function Example() {
                                 <a
                                     href="#kontakt"
                                     onClick={() => setMobileMenuOpen(false)}
-                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     Skontaktuj się
                                 </a>

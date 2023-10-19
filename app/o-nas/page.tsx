@@ -19,7 +19,7 @@ export default function About() {
                 <div className="absolute inset-0 bg-gradient-to-bl from-black via-black to-orange-700 opacity-80"></div>
                 <div className="mx-auto max-w-7xl pb-24 pt-48 border-x border-gray-700 px-6 lg:px-8 relative z-10">
                     <div className="mx-auto max-w-2xl lg:mx-0">
-                        <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">O firmie</h2>
+                        <h2 className="text-4xl  tracking-tight text-white sm:text-6xl">O firmie</h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
                             Poznaj naszą firmę i nasze wieloletnie doświadczenie w branży zbrojeniowej. Dowiedz się więcej o nas.
                         </p>
@@ -27,8 +27,8 @@ export default function About() {
                 </div>
             </div>
             <div className="mx-auto max-w-7xl text-base leading-7 text-gray-700 px-8 py-24 border-x">
-                <p className="text-base font-semibold leading-7 text-orange-600">Poznaj nas lepiej</p>
-                <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Zbrojarnia Transbet</h1>
+                <p className="text-base  leading-7 text-orange-600">Poznaj nas lepiej</p>
+                <h1 className="mt-2 text-3xl  tracking-tight text-gray-900 sm:text-4xl">Zbrojarnia Transbet</h1>
                 <p className="mt-6 text-xl leading-8 max-w-2xl">
                     Pragniemy poinformować, że firma Transbet Betoniarnie Sp. z o.o. Sp. K. oprócz produkcji betonów zajmuje się, również produkcją prefabrykatów zbrojeniowych.
                 </p>
@@ -45,7 +45,7 @@ export default function About() {
                     <p>
                         Dysponując zgranym zespołem, szybko realizujemy każde zlecenie zapewniając sprawną obsługę i doradztwo techniczne.
                     </p>
-                    <p className='font-semibold'>
+                    <p className=''>
                         Dostarczamy prefabrykaty w każde miejsce w Polsce.
                     </p>
                 </div>

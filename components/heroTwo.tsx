@@ -13,7 +13,7 @@ export default function HeroTwo() {
                         alt="Your Company"
                     />
                     <div className="mx-auto max-w-2xl lg:mx-0">
-                        <h1 className="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">
+                        <h1 className="mt-24 text-4xl  tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">
                             Prefabrykaty zbrojeniowe i
                             wyroby hutnicze
                         </h1>
@@ -23,11 +23,11 @@ export default function HeroTwo() {
                         <div className="mt-10 flex items-center gap-x-6">
                             <a
                                 href="#"
-                                className="bg-black px-6 py-4 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
+                                className="bg-black px-6 py-4 text-sm  text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
                             >
                                 Cała oferta
                             </a>
-                            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                            <a href="#" className="text-sm  leading-6 text-gray-900">
                                 Learn more <span aria-hidden="true">→</span>
                             </a>
                         </div>
