@@ -63,7 +63,7 @@ export default function About() {
                                         <Dialog.Panel className="w-full max-w-4xl mx-auto shadow-xl transition-all">
                                             <button
                                                 type="button"
-                                                className="absolute opacity-20 hover:opacity-100 text-white z-50 w-20 h-20 -top-20 right-0"
+                                                className="absolute opacity-20 hover:opacity-100 text-white z-50 w-14 h-14 -top-20 right-0"
                                                 onClick={closeModal}
                                             >
                                                 <XCircleIcon />
