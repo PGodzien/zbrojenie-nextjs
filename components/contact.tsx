@@ -15,7 +15,7 @@ export default function Contact() {
                         <div>
                             <h3 className="border-l border-orange-600 pl-6  text-gray-900">Kontakt</h3>
                             <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
-                                <p>zbrojarnia@transbet.com.pl</p>
+                                <a href="mailto:zbrojarnia@transbet.com.pl">zbrojarnia@transbet.com.pl</a>
                                 <p>+48 539 677 770</p>
                             </address>
                         </div>
