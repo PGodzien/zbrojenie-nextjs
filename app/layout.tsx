@@ -28,6 +28,7 @@ export default function RootLayout({
         })(window,document,'script','dataLayer','${GTM_ID}');
         `}
       </Script>
+      <meta name="google-site-verification" content="ZbvFH7l_vKYNqKlt0MSvqd4qvtLcorLhEqwp6nAPprE" />
       <body className={inter.className}>
         <Nav />
         {children}
