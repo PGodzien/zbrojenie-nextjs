@@ -22,6 +22,7 @@ const features = [
     {
         name: 'Stal na strzemiona',
         description: 'Poza produkcją strzemion zbrojeniowych zajmujemy się równie dostarczaniem stali na strzemiona.',
+        url: 'stal-zbrojeniowa',
     },
     {
         name: 'Kosze zbrojeniowe (pale)',
@@ -39,6 +40,7 @@ const features = [
     {
         name: 'Siatki zbrojeniowe',
         description: 'Jeden z najwaniejszych elementów zbrojenia – wykonujemy je z dbałością o jakość i detale.',
+        url: 'siatki-zbrojeniowe',
     },
     {
         name: 'Wyroby hutnicze (teowniki, ceowniki, profile itp.)',

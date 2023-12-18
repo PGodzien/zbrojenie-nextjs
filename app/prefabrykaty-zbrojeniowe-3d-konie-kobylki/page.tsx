@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     description: 'Wykonujemy gotowe elementy 3D zbrojenia budowlanego i dostarczamy je na terenie całego kraju.',
 }
 
-export default function Kosze() {
+export default function TRZYD() {
     return (
         <div className="border-b">
             <div className="relative border-b border-gray-700 isolate overflow-hidden bg-gray-900">
@@ -30,14 +30,14 @@ export default function Kosze() {
                 <p className="text-base  leading-7 text-orange-600">Konie i kobyłki</p>
                 <h1 className="mt-2 text-3xl  tracking-tight text-gray-900 sm:text-4xl">Prefabrykaty zbrojeniowe 3D</h1>
                 <p className="mt-6 text-xl leading-8">
-                Dystanse, znane również jako „kobyłki”, są nieodłącznym elementem w konstrukcji płyt żelbetowych. Są one używane do oddzielenia dolnego i górnego zbrojenia w celu zapewnienia prawidłowego ustawienia i konstrukcji płyty.
+                    Dystanse, znane również jako „kobyłki”, są nieodłącznym elementem w konstrukcji płyt żelbetowych. Są one używane do oddzielenia dolnego i górnego zbrojenia w celu zapewnienia prawidłowego ustawienia i konstrukcji płyty.
                 </p>
                 <div className="mt-10 space-y-6">
                     <p>
-                    Konstrukcja dystansów jest tak zaprojektowana, aby mogły one wytrzymać ogromne siły i naprężenia, jakim są poddawane płyty żelbetowe. Mają one specyficzną formę, która pozwala im wytrzymać takie obciążenia. Wygięcie dystansów pod kątem prostym jest konieczne dla zapewnienia prawidłowej kontroli wytrzymałości i równowagi konstrukcji.
+                        Konstrukcja dystansów jest tak zaprojektowana, aby mogły one wytrzymać ogromne siły i naprężenia, jakim są poddawane płyty żelbetowe. Mają one specyficzną formę, która pozwala im wytrzymać takie obciążenia. Wygięcie dystansów pod kątem prostym jest konieczne dla zapewnienia prawidłowej kontroli wytrzymałości i równowagi konstrukcji.
                     </p>
                     <p>
-                    W kontekście dystansów, termin „kobyłki” jest często używany jako ich potoczna nazwa. Nazwa ta odnosi się do ich kształtu, który przypomina kopyta końskie. Kobyłki są stabilne i trwałe, dlatego są popularnym wyborem w konstrukcjach żelbetowych.
+                        W kontekście dystansów, termin „kobyłki” jest często używany jako ich potoczna nazwa. Nazwa ta odnosi się do ich kształtu, który przypomina kopyta końskie. Kobyłki są stabilne i trwałe, dlatego są popularnym wyborem w konstrukcjach żelbetowych.
                     </p>
                 </div>
             </div>
