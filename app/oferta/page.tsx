@@ -2,11 +2,13 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import slider from '@/public/welder.jpg'
 import { CheckIcon } from '@heroicons/react/20/solid'
+import { ArrowRightIcon } from '@heroicons/react/24/outline'
 
 const features = [
     {
         name: 'Prefabrykaty zbrojeniowe',
         description: 'Nasze prefabrykaty zbrojeniowe to gwarancja solidności i wytrzymałości.',
+        url: 'prefabrykaty-zbrojeniowe',
     },
     {
         name: 'Prefabrykaty zbrojeniowe 3d (konie, kobyłki)',
@@ -15,6 +17,7 @@ const features = [
     {
         name: 'Strzemiona zbrojeniowe',
         description: 'Stalowe strzemiona zbrojeniowe. Dostępne w różnych rozmiarach. Najwyższa jakość i trwałość.',
+        url: 'strzemiona-zbrojeniowe',
     },
     {
         name: 'Stal na strzemiona',
@@ -23,6 +26,7 @@ const features = [
     {
         name: 'Kosze zbrojeniowe (pale)',
         description: 'Szybkie terminy realizacji oraz precyzja i wysoka jakość wykonania koszy zbrojeniowych. ',
+        url: 'kosze-zbrojeniowe',
     },
     {
         name: 'Klatki zbrojeniowe spawane (tubingi)',
@@ -43,7 +47,7 @@ const features = [
 ]
 
 export const metadata: Metadata = {
-    title: 'O nas - Zbrojarnia Transbet',
+    title: 'Oferta prefabrykatrów zbrojeniowych - Zbrojarnia Transbet',
     description: 'Sprawdź naszą ofertę produktów zbrojeniowych i usług związanych z montażem i projektowaniem.',
 }
 
@@ -79,9 +83,12 @@ export default function About() {
                         <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
                             {features.map((feature) => (
                                 <div key={feature.name} className="relative pl-9">
-                                    <dt className=" text-gray-900 uppercase">
+                                    <dt className=" text-gray-900 uppercase group">
                                         <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-orange-500" aria-hidden="true" />
-                                        {feature.name}
+                                        <a href={feature.url} className="flex items-center group-hover:text-orange-500 no-underline group-hover:underline underline-offset-4 transition duration-100">
+                                            <h5 className="">{feature.name}</h5>
+                                            <span><ArrowRightIcon className='transform -rotate-45 ml-2 w-4 h-auto opacity-0 group-hover:opacity-100'/></span>
+                                        </a>
                                     </dt>
                                     <dd className="mt-2">{feature.description}</dd>
                                 </div>
