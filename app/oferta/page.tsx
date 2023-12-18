@@ -43,6 +43,7 @@ const features = [
     {
         name: 'Wyroby hutnicze (teowniki, ceowniki, profile itp.)',
         description: 'Oferujemy różnorodne wyroby hutnicze, w tym teowniki, ceowniki i profile zbrojeniowe.',
+        url: 'teowniki-ceowniki-profile',
     },
 ]
 
