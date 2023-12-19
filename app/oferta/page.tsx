@@ -90,7 +90,7 @@ export default function About() {
                                         <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-orange-500" aria-hidden="true" />
                                         <a href={feature.url} className="flex items-center group-hover:text-orange-500 no-underline group-hover:underline underline-offset-4 transition duration-100">
                                             <h5 className="">{feature.name}</h5>
-                                            <span><ArrowRightIcon className='transform -rotate-45 ml-2 w-4 h-auto opacity-0 group-hover:opacity-100'/></span>
+                                            <span><ArrowRightIcon className='transform -rotate-45 ml-2 w-4 h-auto opacity-0 group-hover:opacity-100' /></span>
                                         </a>
                                     </dt>
                                     <dd className="mt-2">{feature.description}</dd>
@@ -98,6 +98,65 @@ export default function About() {
                             ))}
                         </dl>
                     </div>
+
+
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 pt-20">
+                        <div>
+                            <img className="h-auto max-w-full object-cover" src="/photos/prefabrykaty-zbrojeniowe-producent-01.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-01.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-02.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-03.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-04.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-05.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-06.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-07.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-08.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-09.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-010.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-011.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-012.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-013.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-014.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-016.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-017.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img className="h-auto max-w-full" src="/photos/prefabrykaty-zbrojeniowe-producent-018.jpg" alt="" />
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
