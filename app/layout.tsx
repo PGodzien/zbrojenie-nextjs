@@ -28,6 +28,14 @@ export default function RootLayout({
         })(window,document,'script','dataLayer','${GTM_ID}');
         `}
       </Script>
+      <Script id="google-translate-init" strategy="afterInteractive">
+        {`
+          function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'pl', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+          }
+        `}
+      </Script>
+      <Script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" strategy="afterInteractive" />
       <meta name="google-site-verification" content="ZbvFH7l_vKYNqKlt0MSvqd4qvtLcorLhEqwp6nAPprE" />
       <body className={inter.className}>
         <Nav />
