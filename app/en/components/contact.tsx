@@ -33,7 +33,7 @@ export default function Contact() {
                             </address>
                         </div>
                         <div>
-                            <h3 className="border-l border-orange-600 pl-6  text-gray-900">Company's data</h3>
+                            <h3 className="border-l border-orange-600 pl-6  text-gray-900">Company&apos;s data</h3>
                             <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
                                 <p>NIP: 795-10-07-169</p>
                                 <p>KRS: 0000573370</p>
