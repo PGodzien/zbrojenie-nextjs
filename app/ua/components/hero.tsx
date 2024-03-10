@@ -26,12 +26,12 @@ export default function Hero() {
                         </p>
                         <div className="mt-10 flex items-center gap-x-6 relative z-30">
                             <a
-                                href="#kontakt"
+                                href="#контакт"
                                 className="bg-orange-500 px-6 py-4 text-sm  text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black duration-200 transition"
                             >
                                 контакт
                             </a>
-                            <a href="/oferta" className="text-sm  leading-6 text-white">
+                            <a href="/ua/пропозиція" className="text-sm  leading-6 text-white">
                                 Вся пропозиція <span aria-hidden="true">→</span>
                             </a>
                         </div>

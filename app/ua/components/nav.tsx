@@ -5,8 +5,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
     { name: 'додому', href: '/ua' },
-    { name: 'Про нас', href: 'про-нас' },
-    { name: 'Пропозиція', href: 'пропозиція' },
+    { name: 'Про нас', href: '/ua/про-нас' },
+    { name: 'Пропозиція', href: '/ua/пропозиція' },
 ]
 
 export default function Example() {
@@ -47,8 +47,8 @@ export default function Example() {
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <a href="#kontakt" className="text-sm  leading-6 py-6 border-l border-gray-700  px-8 bg-orange-500 text-white hover:text-black hover:bg-orange-500 transition duration-200">
-                        Skontaktuj się <span aria-hidden="true">&rarr;</span>
+                    <a href="#контакт" className="text-sm  leading-6 py-6 border-l border-gray-700  px-8 bg-orange-500 text-white hover:text-black hover:bg-orange-500 transition duration-200">
+                        контакт <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
             </nav>
@@ -89,11 +89,11 @@ export default function Example() {
                             </div>
                             <div className="py-6">
                                 <a
-                                    href="#kontakt"
+                                    href="#контакт"
                                     onClick={() => setMobileMenuOpen(false)}
                                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Skontaktuj się
+                                    контакт
                                 </a>
                             </div>
                         </div>

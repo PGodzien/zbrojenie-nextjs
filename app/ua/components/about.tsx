@@ -90,7 +90,7 @@ export default function About() {
                         </p>
                         <div className="mt-8">
                             <a
-                                href="/oferta"
+                                href="/ua/пропозиція"
                                 className="bg-black px-6 py-4 text-sm  text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
                             >
                                 Вся пропозиція
