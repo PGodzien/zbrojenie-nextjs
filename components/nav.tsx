@@ -56,7 +56,7 @@ export default function Nav() {
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                <Menu>
+                    <Menu>
                         <Menu.Button>
                             <div className="relative">
                                 <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-full px-8 py-6 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">PL</div>
@@ -122,6 +122,31 @@ export default function Nav() {
                                 ))}
                             </div>
                             <div className="py-6">
+                                <Menu>
+                                    <Menu.Button>
+                                        <div className="relative">
+                                            <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-full px-8 py-6 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">EN</div>
+                                            <Menu.Items>
+                                                <div className="absolute inset-0 flex flex-col">
+                                                    {links.map((link) => (
+                                                        /* Use the `active` state to conditionally style the active item. */
+                                                        <Menu.Item key={link.href} as={Fragment}>
+                                                            {({ active }) => (
+                                                                <a
+                                                                    href={link.href}
+                                                                    className={`${active ? 'inline-bloack text-sm relative z-10 leading-6 py-6 border-l border-gray-700  px-8 bg-black text-white hover:text-white hover:bg-black transition duration-200' : 'text-sm relative z-10 leading-6 py-6 border-l border-gray-700  px-8 bg-orange-500 text-white hover:text-white hover:bg-orange-500 transition duration-200'
+                                                                        }`}
+                                                                >
+                                                                    {link.label}
+                                                                </a>
+                                                            )}
+                                                        </Menu.Item>
+                                                    ))}
+                                                </div>
+                                            </Menu.Items>
+                                        </div>
+                                    </Menu.Button>
+                                </Menu>
                                 <a
                                     href="#kontakt"
                                     onClick={() => setMobileMenuOpen(false)}
