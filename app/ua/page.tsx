@@ -5,8 +5,8 @@ import Hero from '../ua/components/hero'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Zbrojenie Budowlane - Zbrojarnia Transbet',
-  description: 'Zbrojarnia Transbet oferuje prefabrykaty zbrojeniowe, zbrojenia budowlane i stal budowlaną.',
+  title: 'Посилення будівництва - Transbet Armory',
+  description: 'Арматурний завод «Трансбет» пропонує збірні арматурні елементи, будівельну арматуру та будівельну сталь.',
 }
 
 export default function Home() {

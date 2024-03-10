@@ -83,17 +83,17 @@ export default function About() {
                 </div>
                 <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
                     <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
-                        <h2 className="text-base  leading-7 text-orange-400">Сталь арматурна та будівельна арматура</h2>
-                        <h3 className="mt-2 text-3xl  tracking-tight sm:text-4xl">Виробництво збірних арматурних елементів</h3>
+                        <h2 className="text-base  leading-7 text-orange-400">Reinforcing steel and construction reinforcement</h2>
+                        <h3 className="mt-2 text-3xl  tracking-tight sm:text-4xl">Production of prefabricated reinforcement elements</h3>
                         <p className="mt-6 text-base leading-7">
-                            Наш арматурний цех включає виробництво збірних елементів з прутків діаметром від 6 мм до 40 мм. Ми використовуємо сталь B500A, B500B і B500SP.
+                            Our reinforcement shop includes the production of prefabricated elements from bars with diameters ranging from 6 mm to 40 mm. We use B500A, B500B and B500SP steel.
                         </p>
                         <div className="mt-8">
                             <a
-                                href="/ua/oferta/"
+                                href="/en/services/"
                                 className="bg-black px-6 py-4 text-sm  text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
                             >
-                                Вся пропозиція
+                                Full offer
                             </a>
                         </div>
                     </div>

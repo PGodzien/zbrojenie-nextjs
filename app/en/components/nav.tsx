@@ -1,6 +1,4 @@
 'use client'
-import Image from 'next/image'
-import cz from '@/public/cz.svg'
 import { useState, useEffect } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -8,20 +6,19 @@ import { Fragment } from 'react'
 import { Menu } from '@headlessui/react'
 
 const links = [
-    { href: '#_', label: 'UA' },
+    { href: '#_', label: 'EN' },
     { href: '/', label: 'PL' },
-    { href: '/en', label: 'EN' },
+    { href: '/ua', label: 'UA' },
     { href: '/cs', label: 'CZ' },
     { href: '/sk', label: 'SK' },
 ]
-
 const navigation = [
-    { name: 'додому', href: '/ua' },
-    { name: 'Про нас', href: '/ua/o-nas' },
-    { name: 'Пропозиція', href: '/ua/oferta' },
+    { name: 'Home', href: '/en/' },
+    { name: 'About Us', href: '/en/about-us' },
+    { name: 'Services', href: '/en/services' },
 ]
 
-export default function Example() {
+export default function Nav() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     const [scroll, setScroll] = useState(false);
@@ -35,9 +32,9 @@ export default function Example() {
         <header className={scroll ? "bg-white border-b border-gray-700 fixed z-30 w-full top-0" : "bg-transparent text-white border-b border-gray-700 fixed z-50 w-full top-0"}>
             <nav className="mx-auto flex max-w-7xl border-x border-gray-700  items-center justify-between" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <a href="/ua" className="border-r border-gray-700  py-6 px-8 hover:bg-orange-500 transition duration-200">
+                    <a href="/en" className="border-r border-gray-700  py-6 px-8 hover:bg-orange-500 transition duration-200">
                         <span className="sr-only">Your Company</span>
-                        <p className=" uppercase">Трансбет арсенал</p>
+                        <p className=" uppercase">Transbet Zbrojarnia</p>
                         {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
                     </a>
                 </div>
@@ -58,12 +55,11 @@ export default function Example() {
                         </a>
                     ))}
                 </div>
-
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <Menu>
                         <Menu.Button>
                             <div className="relative">
-                                <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-full px-8 py-6 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">UA</div>
+                                <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-full px-8 py-6 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">EN</div>
                                 <Menu.Items>
                                     <div className="absolute inset-0 flex flex-col">
                                         {links.map((link) => (
@@ -85,8 +81,8 @@ export default function Example() {
                             </div>
                         </Menu.Button>
                     </Menu>
-                    <a href="#контакт" className="text-sm  leading-6 py-6 border-l border-gray-700  px-8 bg-orange-500 text-white hover:text-black hover:bg-orange-500 transition duration-200">
-                        контакт <span aria-hidden="true">&rarr;</span>
+                    <a href="#contact" className="text-sm  leading-6 py-6 border-l border-gray-700  px-8 bg-orange-500 text-white hover:text-black hover:bg-orange-500 transition duration-200">
+                        Contact Us <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
             </nav>
@@ -94,7 +90,7 @@ export default function Example() {
                 <div className="fixed inset-0 z-10" />
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
-                        <a href="/" className="-m-1.5 p-1.5">
+                        <a href="/en" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
                             <p className=" uppercase">Transbet Zbrojarnia</p>
                             {/* <Image
@@ -129,7 +125,7 @@ export default function Example() {
                                 <Menu>
                                     <Menu.Button>
                                         <div className="relative">
-                                            <div className="text-sm relative z-10 leading-6 py-6 border-l border-gray-700  px-8 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">UA</div>
+                                            <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-full px-8 py-6 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">EN</div>
                                             <Menu.Items>
                                                 <div className="absolute inset-0 flex flex-col">
                                                     {links.map((link) => (
@@ -152,11 +148,11 @@ export default function Example() {
                                     </Menu.Button>
                                 </Menu>
                                 <a
-                                    href="#контакт"
+                                    href="#contact"
                                     onClick={() => setMobileMenuOpen(false)}
                                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    контакт
+                                    Contact Us
                                 </a>
                             </div>
                         </div>

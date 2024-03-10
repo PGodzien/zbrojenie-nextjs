@@ -19,20 +19,20 @@ export default function Hero() {
                 <div className="mx-auto max-w-4xl py-24 md:py-48 relative z-10 px-8">
                     <div className="bg-black bg-opacity-10 backdrop-blur-sm p-10">
                         <h1 className="text-4xl tracking-tight text-white sm:text-6xl">
-                            ЗБІРНІ АРМАТУРНІ ТА МЕТАЛУРГІЙНІ ВИРОБИ
+                            Prefabricated reinforcement and metallurgical products
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
-                            Виробництво та продаж збірних арматурних елементів та металургійних виробів.
+                            Production and sale of prefabricated reinforcement elements and metallurgical products.
                         </p>
                         <div className="mt-10 flex items-center gap-x-6 relative z-30">
                             <a
-                                href="#контакт"
+                                href="#contact"
                                 className="bg-orange-500 px-6 py-4 text-sm  text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black duration-200 transition"
                             >
-                                контакт
+                                Contact Us
                             </a>
-                            <a href="/ua/oferta" className="text-sm  leading-6 text-white">
-                                Вся пропозиція <span aria-hidden="true">→</span>
+                            <a href="/en/services/" className="text-sm  leading-6 text-white">
+                                Full offer <span aria-hidden="true">→</span>
                             </a>
                         </div>
                     </div>
