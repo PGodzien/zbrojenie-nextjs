@@ -4,12 +4,12 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Strona główna', href: '/' },
-    { name: 'O nas', href: 'o-nas' },
-    { name: 'Oferta', href: 'oferta' },
+    { name: 'додому', href: '/ua' },
+    { name: 'Про нас', href: 'про-нас' },
+    { name: 'Пропозиція', href: 'пропозиція' },
 ]
 
-export default function Nav() {
+export default function Example() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     const [scroll, setScroll] = useState(false);
@@ -23,9 +23,9 @@ export default function Nav() {
         <header className={scroll ? "bg-white border-b border-gray-700 fixed z-30 w-full top-0" : "bg-transparent text-white border-b border-gray-700 fixed z-50 w-full top-0"}>
             <nav className="mx-auto flex max-w-7xl border-x border-gray-700  items-center justify-between" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <a href="/" className="border-r border-gray-700  py-6 px-8 hover:bg-orange-500 transition duration-200">
+                    <a href="/ua" className="border-r border-gray-700  py-6 px-8 hover:bg-orange-500 transition duration-200">
                         <span className="sr-only">Your Company</span>
-                        <p className=" uppercase">Transbet Zbrojarnia</p>
+                        <p className=" uppercase">Трансбет арсенал</p>
                         {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
                     </a>
                 </div>

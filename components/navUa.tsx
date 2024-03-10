@@ -9,7 +9,7 @@ const navigation = [
     { name: 'Oferta', href: 'oferta' },
 ]
 
-export default function Nav() {
+export default function NavUa() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     const [scroll, setScroll] = useState(false);

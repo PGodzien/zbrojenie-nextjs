@@ -1,9 +1,10 @@
-import Nav from '@/components/nav'
+
 import './globals.css'
 import { Space_Grotesk } from 'next/font/google'
 import Footer from '@/components/footer'
 import Contact from '@/components/contact'
 import Script from 'next/script'
+import Nav from '@/components/nav'
 
 const GTM_ID = 'GTM-NVXXW9C';
 
@@ -38,10 +39,10 @@ export default function RootLayout({
       <Script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" strategy="afterInteractive" />
       <meta name="google-site-verification" content="ZbvFH7l_vKYNqKlt0MSvqd4qvtLcorLhEqwp6nAPprE" />
       <body className={inter.className}>
-        <Nav />
+        {/* <Nav /> */}
         {children}
-        <Contact />
-        <Footer />
+        {/* <Contact /> */}
+        {/* <Footer /> */}
         <noscript
           dangerouslySetInnerHTML={{
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
