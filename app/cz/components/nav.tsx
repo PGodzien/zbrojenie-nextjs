@@ -6,16 +6,16 @@ import { Fragment } from 'react'
 import { Menu } from '@headlessui/react'
 
 const links = [
-    { href: '#_', label: 'PL' },
+    { href: '#_', label: 'CZ' },
+    { href: '/', label: 'PL' },
     { href: '/ua', label: 'UA' },
     { href: '/en', label: 'EN' },
-    { href: '/cz', label: 'CZ' },
     { href: '/sk', label: 'SK' },
 ]
 const navigation = [
-    { name: 'Strona główna', href: '/' },
-    { name: 'O nas', href: 'o-nas' },
-    { name: 'Oferta', href: 'oferta' },
+    { name: 'Domov', href: '/cz/' },
+    { name: 'O nás', href: '/cz/o-nas/' },
+    { name: 'Nabídka', href: '/cz/nabidka/' },
 ]
 
 export default function Nav() {
@@ -32,9 +32,9 @@ export default function Nav() {
         <header className={scroll ? "bg-white border-b border-gray-700 fixed z-30 w-full top-0" : "bg-transparent text-white border-b border-gray-700 fixed z-50 w-full top-0"}>
             <nav className="mx-auto flex max-w-7xl border-x border-gray-700  items-center justify-between" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <a href="/" className="border-r border-gray-700  py-6 px-8 hover:bg-orange-500 transition duration-200">
+                    <a href="/cz/" className="border-r border-gray-700  py-6 px-8 hover:bg-orange-500 transition duration-200">
                         <span className="sr-only">Your Company</span>
-                        <p className=" uppercase">Transbet Zbrojarnia</p>
+                        <p className=" uppercase">Zbrojnice Transbet</p>
                         {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
                     </a>
                 </div>
@@ -59,7 +59,7 @@ export default function Nav() {
                     <Menu>
                         <Menu.Button>
                             <div className="relative">
-                                <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-full px-8 py-6 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">PL</div>
+                                <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-full px-8 py-6 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">CZ</div>
                                 <Menu.Items>
                                     <div className="absolute inset-0 flex flex-col">
                                         {links.map((link) => (
@@ -82,7 +82,7 @@ export default function Nav() {
                         </Menu.Button>
                     </Menu>
                     <a href="#kontakt" className="text-sm  leading-6 py-6 border-l border-gray-700  px-8 bg-orange-500 text-white hover:text-black hover:bg-orange-500 transition duration-200">
-                        Skontaktuj się <span aria-hidden="true">&rarr;</span>
+                        Kontakt <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
             </nav>
@@ -90,9 +90,9 @@ export default function Nav() {
                 <div className="fixed inset-0 z-10" />
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
-                        <a href="/" className="-m-1.5 p-1.5">
+                        <a href="/cz/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <p className=" uppercase">Transbet Zbrojarnia</p>
+                            <p className=" uppercase">Zbrojnice Transbet</p>
                             {/* <Image
                                 className="h-8 w-auto"
                                 src={logo}
@@ -125,7 +125,7 @@ export default function Nav() {
                                 <Menu>
                                     <Menu.Button>
                                         <div className="relative">
-                                            <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-full px-8 py-6 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">EN</div>
+                                            <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-full px-8 py-6 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">CZ</div>
                                             <Menu.Items>
                                                 <div className="absolute inset-0 flex flex-col">
                                                     {links.map((link) => (
@@ -152,7 +152,7 @@ export default function Nav() {
                                     onClick={() => setMobileMenuOpen(false)}
                                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Skontaktuj się
+                                    Kontakt
                                 </a>
                             </div>
                         </div>

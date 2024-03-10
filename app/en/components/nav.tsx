@@ -9,7 +9,7 @@ const links = [
     { href: '#_', label: 'EN' },
     { href: '/', label: 'PL' },
     { href: '/ua', label: 'UA' },
-    { href: '/cs', label: 'CZ' },
+    { href: '/cz', label: 'CZ' },
     { href: '/sk', label: 'SK' },
 ]
 const navigation = [

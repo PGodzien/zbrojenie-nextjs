@@ -11,7 +11,7 @@ const links = [
     { href: '#_', label: 'UA' },
     { href: '/', label: 'PL' },
     { href: '/en', label: 'EN' },
-    { href: '/cs', label: 'CZ' },
+    { href: '/cz', label: 'CZ' },
     { href: '/sk', label: 'SK' },
 ]
 
