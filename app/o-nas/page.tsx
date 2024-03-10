@@ -51,7 +51,7 @@ export default function About() {
                             Dysponując zgranym zespołem, szybko realizujemy każde zlecenie zapewniając sprawną obsługę i doradztwo techniczne.
                         </p>
                         <p className=''>
-                            Dostarczamy prefabrykaty w każde miejsce w Polsce.
+                            Dostarczamy prefabrykaty w każde miejsce w Polsce i Europie Środkowo-Wschodniej.
                         </p>
                     </div>
                 </div>

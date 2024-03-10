@@ -47,7 +47,7 @@ export default function About() {
                             With a well-coordinated team, we quickly complete each order, providing efficient service and technical advice.
                         </p>
                         <p className=''>
-                            We deliver prefabricated elements to every place in Poland.
+                        We deliver prefabricated elements to every place in Poland and Central and Eastern Europe.
                         </p>
                     </div>
                 </div>

@@ -31,23 +31,23 @@ export default function About() {
                     <p className="text-base  leading-7 text-orange-600">Poznejte nás lépe</p>
                     <h1 className="mt-2 text-3xl  tracking-tight text-gray-900 sm:text-4xl">Zbrojnice Transbet</h1>
                     <p className="mt-6 text-xl leading-8 max-w-2xl">
-                    Rádi bychom vás informovali, že Transbet Betonarnie Sp. z o. o. Sp. K. se kromě výroby betonu zabývá také výrobou prefabrikovaných armovacích prvků.
+                        Rádi bychom vás informovali, že Transbet Betonarnie Sp. z o. o. Sp. K. se kromě výroby betonu zabývá také výrobou prefabrikovaných armovacích prvků.
                     </p>
                     <div className="mt-10 space-y-6">
                         <p>
-                        Výroba prefabrikovaných armovacích prvků prováděná naší armaturou zahrnuje výrobu prefabrikovaných prvků z tyčí o průměrech od 6 mm do 40 mm. Jejich profilování a řezání je možné pomocí moderních ohýbacích strojů a vyspělých armovacích strojů.
+                            Výroba prefabrikovaných armovacích prvků prováděná naší armaturou zahrnuje výrobu prefabrikovaných prvků z tyčí o průměrech od 6 mm do 40 mm. Jejich profilování a řezání je možné pomocí moderních ohýbacích strojů a vyspělých armovacích strojů.
                         </p>
                         <p>
-                        Disponujeme automatizovaným strojovým parkem, který zaručuje velmi vysokou přesnost vyráběných prvků. Díky nim vznikají prefabrikované výztužné prvky v co nejkratším čase.
+                            Disponujeme automatizovaným strojovým parkem, který zaručuje velmi vysokou přesnost vyráběných prvků. Díky nim vznikají prefabrikované výztužné prvky v co nejkratším čase.
                         </p>
                         <p>
-                        Betonářská ocel prefabrikovaná společností Transbet splňuje všechny platné průmyslové normy. Každá položka (výztuž) je zabalena do balíků a označena k nim připevněným štítkem s tvarem položky a všemi údaji nutnými k její identifikaci. To usnadňuje proces instalace na staveništi a zajišťuje kontinuitu armovacích prací.
+                            Betonářská ocel prefabrikovaná společností Transbet splňuje všechny platné průmyslové normy. Každá položka (výztuž) je zabalena do balíků a označena k nim připevněným štítkem s tvarem položky a všemi údaji nutnými k její identifikaci. To usnadňuje proces instalace na staveništi a zajišťuje kontinuitu armovacích prací.
                         </p>
                         <p>
-                        S dobře koordinovaným týmem rychle vyřídíme každou objednávku a poskytujeme efektivní služby a technické poradenství.
+                            S dobře koordinovaným týmem rychle vyřídíme každou objednávku a poskytujeme efektivní služby a technické poradenství.
                         </p>
                         <p className=''>
-                        Prefabrikáty dodáváme na každé místo v Polsku.
+                        Prefabrikáty dodáváme na každé místo v Polsku a střední a východní Evropě.
                         </p>
                     </div>
                 </div>
