@@ -34,7 +34,7 @@ export default function Nav() {
                 <div className="flex lg:flex-1">
                     <a href="/en" className="border-r border-gray-700  py-6 px-8 hover:bg-orange-500 transition duration-200">
                         <span className="sr-only">Your Company</span>
-                        <p className=" uppercase">Transbet Zbrojarnia</p>
+                        <p className=" uppercase">Transbet armory</p>
                         {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
                     </a>
                 </div>
