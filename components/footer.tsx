@@ -32,7 +32,7 @@ const navigation = [
 export default function Footer() {
     return (
         <footer className="bg-white relative">
-            <div className="mx-auto max-w-7xl border-x px-6 py-12 md:flex md:items-center md:justify-between lg:px-8 relative">
+            <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8 relative">
                 {/* <div className="mt-8 md:mt-0 w-20 h-20 bg-black md:order-3 flex items-center justify-center"></div> */}
                 <div className="flex justify-center space-x-6 md:order-2">
                     {navigation.map((item) => (
