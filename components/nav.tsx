@@ -31,7 +31,7 @@ export default function Nav() {
 
     return (
         <header className={scroll ? "bg-white border-b border-gray-700 fixed z-30 w-full top-0" : "bg-transparent text-white border-b border-gray-700 fixed z-50 w-full top-0"}>
-            <nav className="mx-auto flex max-w-7xl border-x border-gray-700  items-center justify-between" aria-label="Global">
+            <nav className="mx-auto flex max-w-7xl border-x border-gray-700  items-center justify-between relative" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="/" className="border-r border-gray-700  py-6 px-8 hover:bg-orange-500 transition duration-200">
                         <span className="sr-only">Your Company</span>
@@ -86,10 +86,11 @@ export default function Nav() {
                         Skontaktuj się <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
+                <a href='https://transbettcs.com' target='_blank' className="bg-orange-500 text-white hover:text-black transition duration-150 absolute left-0 -bottom-16 z-50 w-44 py-2 h-12 flex items-center justify-center">Budowa tuneli <span aria-hidden="true" className='ml-2'>&rarr;</span></a>
             </nav>
             <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <div className="fixed inset-0 z-10" />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <Dialog.Panel className="fixed inset-y-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <a href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
