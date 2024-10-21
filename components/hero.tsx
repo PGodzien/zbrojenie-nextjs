@@ -4,7 +4,7 @@ import welder from '@/public/slider_04.jpg'
 export default function Hero() {
 
     return (
-        <div className="border-b border-gray-700 relative -mt-20">
+        <div className="border-b border-gray-700 relative -mt-20 overflow-hidden">
             <Image
                 src={welder}
                 alt=""
