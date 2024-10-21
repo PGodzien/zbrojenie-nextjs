@@ -16,7 +16,8 @@ const navigation = [
     { name: 'Strona główna', href: '/' },
     { name: 'O nas', href: 'o-nas' },
     { name: 'Oferta', href: 'oferta' },
-    { name: 'Kariera', href: 'https://transbet.com.pl/kariera'}
+    { name: 'Kariera', href: 'https://transbet.com.pl/kariera'},
+    { name: 'Transbet TCS', href: 'https://transbettcs.com'}
 ]
 
 export default function Nav() {
