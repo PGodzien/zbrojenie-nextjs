@@ -50,6 +50,10 @@ const features = [
         description: 'Oferujemy różnorodne wyroby hutnicze, w tym teowniki, ceowniki i profile zbrojeniowe.',
         url: 'teowniki-ceowniki-profile',
     },
+    {
+        name: 'Ściany szczelinowe',
+        description: 'Ściany szczelinowe to sprawdzony od lat system, który gwarantuje niezawodne zabezpieczenie głębokich wykopów.',
+    },
 ]
 
 export const metadata: Metadata = {
