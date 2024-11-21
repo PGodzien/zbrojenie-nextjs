@@ -4,6 +4,8 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Fragment } from 'react'
 import { Menu } from '@headlessui/react'
+import Image from 'next/image'
+import logo from '@/public/logo-steeltrans-white.svg'
 
 const links = [
     { href: '#_', label: 'PL' },
@@ -36,7 +38,8 @@ export default function Nav() {
                 <div className="flex lg:flex-1">
                     <a href="/" className="border-r border-gray-700  py-6 px-8 hover:bg-orange-500 transition duration-200">
                         <span className="sr-only">Your Company</span>
-                        <p className=" uppercase">Transbet Zbrojarnia</p>
+                        {/* <p className=" uppercase">Transbet Zbrojarnia</p> */}
+                        <Image src={logo} className={scroll ? "w-40 h-auto stroke-black grayscale invert" : "w-40 h-auto"} alt="" />
                         {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
                     </a>
                 </div>
