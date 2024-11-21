@@ -45,7 +45,7 @@ export default function Footer() {
 
                 <div className="mt-8 md:order-1 md:mt-0">
                     <p className="text-center text-xs leading-5 text-gray-500">
-                        &copy; {today.getFullYear()} TRANSBET BETONIARNIE GROCHOWICZ Sp. K. Wszystkie prawa zastrzeżone. Realizacja <a href="https://getpromo.pl" className="text-orange-500 hover:text-black">strony internetowe Getpromo</a>
+                        &copy; {today.getFullYear()} Steeltrans Sp. z o.o. Wszystkie prawa zastrzeżone. Realizacja <a href="https://getpromo.pl" className="text-orange-500 hover:text-black">strony internetowe Getpromo</a>
                     </p>
                 </div>
 

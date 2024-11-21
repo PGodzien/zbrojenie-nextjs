@@ -29,14 +29,14 @@ export default function Contact() {
                         <div>
                             <h3 className="border-l border-orange-600 pl-6  text-gray-900">Firma</h3>
                             <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
-                                <p>TRANSBET BETONIARNIE GROCHOWICZ Sp. K.</p>
+                                <p>Steeltrans Sp. z o.o.</p>
                             </address>
                         </div>
                         <div>
                             <h3 className="border-l border-orange-600 pl-6  text-gray-900">Dane</h3>
                             <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
-                                <p>NIP: 795-10-07-169</p>
-                                <p>KRS: 0000573370</p>
+                                <p>NIP: 7952536987</p>
+                                <p>KRS: 0000618210</p>
                             </address>
                         </div>
                     </div>

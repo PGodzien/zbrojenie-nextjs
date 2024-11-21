@@ -33,7 +33,7 @@ export default function About() {
                 </div>
                 <div className="mx-auto max-w-7xl text-base leading-7 text-gray-700 px-8 py-24 border-x">
                     <p className="text-base  leading-7 text-orange-600">Poznaj nas lepiej</p>
-                    <h1 className="mt-2 text-3xl  tracking-tight text-gray-900 sm:text-4xl">Zbrojarnia Transbet</h1>
+                    <h1 className="mt-2 text-3xl  tracking-tight text-gray-900 sm:text-4xl">Steeltrans Sp. z o.o.</h1>
                     <p className="mt-6 text-xl leading-8 max-w-2xl">
                         Pragniemy poinformować, że firma Transbet Betoniarnie Sp. z o.o. Sp. K. oprócz produkcji betonów zajmuje się, również produkcją prefabrykatów zbrojeniowych.
                     </p>

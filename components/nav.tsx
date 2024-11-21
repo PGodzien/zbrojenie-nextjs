@@ -98,7 +98,8 @@ export default function Nav() {
                     <div className="flex items-center justify-between">
                         <a href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <p className=" uppercase">Transbet Zbrojarnia</p>
+                            {/* <p className=" uppercase">Transbet Zbrojarnia</p> */}
+                            <Image src={logo} className="invert grayscale w-40 h-auto" alt="" />
                             {/* <Image
                                 className="h-8 w-auto"
                                 src={logo}
