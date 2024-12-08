@@ -65,7 +65,7 @@ export default function Nav() {
                     </a>
                     <Menu>
                         <Menu.Button>
-                            <div className="relative">
+                            <div className="relative z-30">
                                 <div className="h-20 w-20 flex justify-center items-center text-sm relative z-10 leading-6 border-l border-gray-700 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">PL</div>
                                 <Menu.Items>
                                     <div className="absolute inset-0 flex flex-col">
@@ -92,7 +92,7 @@ export default function Nav() {
                         Skontaktuj się <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
-                <a href='https://transbettcs.com' target='_blank' className="bg-orange-500 text-white hover:text-black transition duration-150 absolute left-0 -bottom-16 z-50 w-44 py-2 h-12 flex items-center justify-center">Budowa tuneli <span aria-hidden="true" className='ml-2'>&rarr;</span></a>
+                <a href='https://transbettcs.com' target='_blank' className="bg-orange-500 text-white hover:text-black transition duration-150 absolute right-0 -bottom-20 z-20 w-56 py-2 h-16 flex items-center justify-center">Budowa tuneli <span aria-hidden="true" className='ml-2'>&rarr;</span></a>
             </nav>
             <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <div className="fixed inset-0 z-10" />
