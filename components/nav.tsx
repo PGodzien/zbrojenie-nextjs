@@ -62,9 +62,9 @@ export default function Nav() {
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <div className="h-20 w-20 flex justify-center items-center text-sm relative z-10 leading-6 border-l border-gray-700 bg-[#004494] text-[#ffd617]  hover:bg-black transition duration-200">
+                    <a href='/fundusze-unijne' className="h-20 w-20 flex justify-center items-center text-sm relative z-10 leading-6 border-l border-gray-700 bg-[#004494] text-[#ffd617]  hover:bg-black transition duration-200">
                         <Image className='w-14 h-14' alt='' src={ueStars} />
-                    </div>
+                    </a>
                     <Menu>
                         <Menu.Button>
                             <div className="relative">
@@ -134,9 +134,9 @@ export default function Nav() {
                             </div>
                             <div className="py-6">
                                 <div className="flex">
-                                <div className="h-20 w-20 flex justify-center items-center text-sm relative z-10 leading-6 border-l border-gray-700 bg-[#004494] text-[#ffd617]  hover:bg-black transition duration-200">
+                                <a href='/fundusze-unijne' className="h-20 w-20 flex justify-center items-center text-sm relative z-10 leading-6 border-l border-gray-700 bg-[#004494] text-[#ffd617]  hover:bg-black transition duration-200">
                                     <Image className='w-14 h-14' alt='' src={ueStars} />
-                                </div>
+                                </a>
                                 <Menu>
                                     <Menu.Button>
                                         <div className="relative">
