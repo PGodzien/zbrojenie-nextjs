@@ -37,11 +37,9 @@ export default function Nav() {
         <header className={scroll ? "bg-white border-b border-gray-700 fixed z-30 w-full top-0" : "bg-transparent text-white border-b border-gray-700 fixed z-50 w-full top-0"}>
             <nav className="mx-auto flex max-w-7xl border-x border-gray-700  items-center justify-between relative" aria-label="Global">
                 <div className="flex">
-                    <a href="/" className="border-r border-gray-700 px-8 hover:bg-orange-500 transition duration-200">
+                    <a href="/" className="border-r border-gray-700 h-20 px-4 flex justify-center items-center hover:bg-black transition duration-200">
                         <span className="sr-only">Your Company</span>
-                        {/* <p className=" uppercase">Transbet Zbrojarnia</p> */}
                         <Image src={logo} className={scroll ? "w-40 h-auto stroke-black grayscale invert" : "w-40 h-auto"} alt="" />
-                        {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
                     </a>
                 </div>
                 <div className="flex lg:hidden border-l border-gray-700 w-24 h-24">
@@ -134,34 +132,34 @@ export default function Nav() {
                             </div>
                             <div className="py-6">
                                 <div className="flex">
-                                <a href='/fundusze-unijne' className="h-20 w-20 flex justify-center items-center text-sm relative z-10 leading-6 border-l border-gray-700 bg-[#004494] text-[#ffd617]  hover:bg-black transition duration-200">
-                                    <Image className='w-14 h-14' alt='' src={ueStars} />
-                                </a>
-                                <Menu>
-                                    <Menu.Button>
-                                        <div className="relative">
-                                            <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-20 w-20 flex justify-center items-center bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">EN</div>
-                                            <Menu.Items>
-                                                <div className="absolute inset-0 flex flex-col">
-                                                    {links.map((link) => (
-                                                        /* Use the `active` state to conditionally style the active item. */
-                                                        <Menu.Item key={link.href} as={Fragment}>
-                                                            {({ active }) => (
-                                                                <a
-                                                                    href={link.href}
-                                                                    className={`${active ? 'inline-bloack text-sm relative z-10 leading-6 py-6 border-l border-gray-700  px-8 bg-black text-white hover:text-white hover:bg-black transition duration-200' : 'text-sm relative z-10 leading-6 py-6 border-l border-gray-700  px-8 bg-orange-500 text-white hover:text-white hover:bg-orange-500 transition duration-200'
-                                                                        }`}
-                                                                >
-                                                                    {link.label}
-                                                                </a>
-                                                            )}
-                                                        </Menu.Item>
-                                                    ))}
-                                                </div>
-                                            </Menu.Items>
-                                        </div>
-                                    </Menu.Button>
-                                </Menu>
+                                    <a href='/fundusze-unijne' className="h-20 w-20 flex justify-center items-center text-sm relative z-10 leading-6 border-l border-gray-700 bg-[#004494] text-[#ffd617]  hover:bg-black transition duration-200">
+                                        <Image className='w-14 h-14' alt='' src={ueStars} />
+                                    </a>
+                                    <Menu>
+                                        <Menu.Button>
+                                            <div className="relative">
+                                                <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-20 w-20 flex justify-center items-center bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">EN</div>
+                                                <Menu.Items>
+                                                    <div className="absolute inset-0 flex flex-col">
+                                                        {links.map((link) => (
+                                                            /* Use the `active` state to conditionally style the active item. */
+                                                            <Menu.Item key={link.href} as={Fragment}>
+                                                                {({ active }) => (
+                                                                    <a
+                                                                        href={link.href}
+                                                                        className={`${active ? 'inline-bloack text-sm relative z-10 leading-6 py-6 border-l border-gray-700  px-8 bg-black text-white hover:text-white hover:bg-black transition duration-200' : 'text-sm relative z-10 leading-6 py-6 border-l border-gray-700  px-8 bg-orange-500 text-white hover:text-white hover:bg-orange-500 transition duration-200'
+                                                                            }`}
+                                                                    >
+                                                                        {link.label}
+                                                                    </a>
+                                                                )}
+                                                            </Menu.Item>
+                                                        ))}
+                                                    </div>
+                                                </Menu.Items>
+                                            </div>
+                                        </Menu.Button>
+                                    </Menu>
                                 </div>
                                 <a
                                     href="#kontakt"
