@@ -133,10 +133,14 @@ export default function Nav() {
                                 ))}
                             </div>
                             <div className="py-6">
+                                <div className="flex">
+                                <div className="h-20 w-20 flex justify-center items-center text-sm relative z-10 leading-6 border-l border-gray-700 bg-[#004494] text-[#ffd617]  hover:bg-black transition duration-200">
+                                    <Image className='w-14 h-14' alt='' src={ueStars} />
+                                </div>
                                 <Menu>
                                     <Menu.Button>
                                         <div className="relative">
-                                            <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-full px-8 py-6 bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">EN</div>
+                                            <div className="text-sm relative z-10 leading-6 border-l border-gray-700 h-20 w-20 flex justify-center items-center bg-black text-white hover:text-black hover:bg-orange-500 transition duration-200">EN</div>
                                             <Menu.Items>
                                                 <div className="absolute inset-0 flex flex-col">
                                                     {links.map((link) => (
@@ -158,6 +162,7 @@ export default function Nav() {
                                         </div>
                                     </Menu.Button>
                                 </Menu>
+                                </div>
                                 <a
                                     href="#kontakt"
                                     onClick={() => setMobileMenuOpen(false)}
