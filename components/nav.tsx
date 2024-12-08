@@ -42,7 +42,7 @@ export default function Nav() {
                         <Image src={logo} className={scroll ? "w-40 h-auto stroke-black grayscale invert" : "w-40 h-auto"} alt="" />
                     </a>
                 </div>
-                <div className="flex lg:hidden border-l border-gray-700 w-24 h-24">
+                <div className="flex lg:hidden border-l border-gray-700 w-20 h-20">
                     <button
                         type="button"
                         className="flex items-center justify-center text-white bg-black h-full w-full"
@@ -100,13 +100,7 @@ export default function Nav() {
                     <div className="flex items-center justify-between">
                         <a href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            {/* <p className=" uppercase">Transbet Zbrojarnia</p> */}
                             <Image src={logo} className="invert grayscale w-40 h-auto" alt="" />
-                            {/* <Image
-                                className="h-8 w-auto"
-                                src={logo}
-                                alt=""
-                            /> */}
                         </a>
                         <button
                             type="button"
