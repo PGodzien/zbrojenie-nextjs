@@ -27,7 +27,7 @@ export default function About() {
                         <div className="mx-auto max-w-2xl lg:mx-0">
                             <h2 className="text-4xl tracking-tight text-white sm:text-6xl">Fundusze Unijne</h2>
                             <p className="mt-6 text-lg leading-8 text-gray-300">
-                                Poznaj, jak firma Transbet korzysta z funduszy unijnych, aby wspierać innowacje i rozwój w branży budowlanej.
+                                Poznaj, jak firma Steeltrans korzysta z funduszy unijnych, aby wspierać innowacje i rozwój w branży budowlanej.
                             </p>
                         </div>
                     </div>
