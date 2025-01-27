@@ -42,18 +42,18 @@ export default function About() {
                             <b className="">Firma STEELTRANS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ</b></p>
                     </div>
                     <div className="mt-10 space-y-6 prose mx-auto">
-                        <p>jest w trakcie realizacji projektu współfinansowanego z Europejskiego Funduszu Rozwoju Regionalnego w ramach Priorytetu nr FEPK.01 „Konkurencyjna i Cyfrowa Gospodarka” programu regionalnego Fundusze Europejskie dla Podkarpacia 2021-2027 „Wdrożenie nowej technologii produkcji zbrojeń stalowych do zastosowania w konstrukcjach żelbetowych.”</p>
+                        <p>zrealizowała projjekt współfinansowany z Europejskiego Funduszu Rozwoju Regionalnego w ramach Priorytetu nr FEPK.01 „Konkurencyjna i Cyfrowa Gospodarka” programu regionalnego Fundusze Europejskie dla Podkarpacia 2021-2027 „Wdrożenie nowej technologii produkcji zbrojeń stalowych do zastosowania w konstrukcjach żelbetowych.”</p>
                         <p><strong>Numer projektu:</strong> FEPK.01.03-IZ.00-001/23</p>
 
                         <h2>Cele i planowane efekty projektu:</h2>
-                        <p>Projekt realizujemy, aby wdrożyć nową technologię produkcji zbrojeń stalowych z innowacyjnym zabezpieczeniem powierzchni krytycznych przed korozją.</p>
+                        <p>Projekt zrealizowaliśmy, aby wdrożyć nową technologię produkcji zbrojeń stalowych z innowacyjnym zabezpieczeniem powierzchni krytycznych przed korozją.</p>
                         <p>Na podstawie własnych doświadczeń produkcyjnych oraz prac badawczo-rozwojowych, opracowano proces produkcji, który eliminuje kluczowe problemy technologiczne, takie jak:</p>
                         <ul>
                             <li>Korozja prętów stalowych w krytycznych obszarach,</li>
                             <li>Niewłaściwe składowanie i transport prętów,</li>
                             <li>Niska jakość powierzchni po cięciu.</li>
                         </ul>
-                        <p>Efektem projektu będzie opracowanie nowoczesnej linii produkcyjnej o następujących innowacyjnych cechach:</p>
+                        <p>Efektem projektu było opracowanie nowoczesnej linii produkcyjnej o następujących innowacyjnych cechach:</p>
                         <ul>
                             <li>Automatyzacja wszystkich etapów obróbki prętów,</li>
                             <li>Precyzyjne programowanie procesów cięcia,</li>
@@ -62,7 +62,7 @@ export default function About() {
                         </ul>
 
                         <h2>Zakupy inwestycyjne:</h2>
-                        <p>W ramach projektu zakupione zostaną:</p>
+                        <p>W ramach projektu zakupione zostały:</p>
                         <ul>
                             <li><strong>Gilotyna do cięcia prętów</strong> o długości do 12 m, wyposażona w systemy automatycznego przesuwu i cięcia,</li>
                             <li><strong>Urządzenie do wykonywania zbrojenia do pali żelbetowych</strong>, umożliwiające precyzyjne i zautomatyzowane spawanie elementów zbrojeniowych.</li>
@@ -76,9 +76,9 @@ export default function About() {
 
                         <h2>Beneficjenci projektu:</h2>
                         <ul>
-                            <li><strong>Klienci biznesowi</strong> – otrzymają wysokiej jakości zbrojenia stalowe, odporne na korozję i spełniające najwyższe standardy techniczne,</li>
-                            <li><strong>Firma Steeltrans</strong> – dzięki wdrożeniu innowacyjnej technologii umocni swoją pozycję konkurencyjną na rynku krajowym i międzynarodowym,</li>
-                            <li><strong>Środowisko naturalne</strong> – poprzez ograniczenie odpadów produkcyjnych i emisji hałasu, projekt pozytywnie wpłynie na środowisko.</li>
+                            <li><strong>Klienci biznesowi</strong> – otrzymali wysokiej jakości zbrojenia stalowe, odporne na korozję i spełniające najwyższe standardy techniczne,</li>
+                            <li><strong>Firma Steeltrans</strong> – dzięki wdrożeniu innowacyjnej technologii umocniła swoją pozycję konkurencyjną na rynku krajowym i międzynarodowym,</li>
+                            <li><strong>Środowisko naturalne</strong> – poprzez ograniczenie odpadów produkcyjnych i emisji hałasu, projekt pozytywnie wpłynął na środowisko.</li>
                         </ul>
 
                         <h2>Wartość projektu:</h2>
