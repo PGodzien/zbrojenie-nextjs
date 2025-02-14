@@ -41,7 +41,7 @@ export default function About() {
                             <b className="">Firma STEELTRANS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ</b></p>
                     </div>
                     <div className="mt-10 space-y-6 prose mx-auto">
-                        <p>zrealizowała projjekt współfinansowany z Europejskiego Funduszu Rozwoju Regionalnego w ramach Priorytetu nr FEPK.01 „Konkurencyjna i Cyfrowa Gospodarka” programu regionalnego Fundusze Europejskie dla Podkarpacia 2021-2027 „Wdrożenie nowej technologii produkcji zbrojeń stalowych do zastosowania w konstrukcjach żelbetowych.”</p>
+                        <p>zrealizowała projekt współfinansowany z Europejskiego Funduszu Rozwoju Regionalnego w ramach Priorytetu nr FEPK.01 „Konkurencyjna i Cyfrowa Gospodarka” programu regionalnego Fundusze Europejskie dla Podkarpacia 2021-2027 „Wdrożenie nowej technologii produkcji zbrojeń stalowych do zastosowania w konstrukcjach żelbetowych.”</p>
                         <p><strong>Numer projektu:</strong> FEPK.01.03-IZ.00-0192/23</p>
 
                         <h2>Cele i planowane efekty projektu:</h2>
